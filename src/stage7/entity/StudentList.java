@@ -173,14 +173,9 @@ public class StudentList {
         BufferedWriter out = new BufferedWriter(new FileWriter("Student.txt"));
         Student[] outStudent = getAllStudent();
 
-        for (int i = 0; i < outStudent.length; i++) {
-            out.write("stuId="+outStudent[i].getStuId()+"，");
-            out.write("name="+outStudent[i].getName()+"，");
-            out.write("gender="+outStudent[i].getGender()+"，");
-            out.write("grade="+outStudent[i].getGrade()+"，");
-            out.write("age="+outStudent[i].getAge()+"，");
-            out.write("phoneNum="+outStudent[i].getPhoneNum()+"，");
-            out.write("\n");
+        for (Student s : outStudent) {
+            out.write(s.toString());
+            out.write(System.lineSeparator());
         }
         out.close();
     }

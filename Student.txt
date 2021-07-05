@@ -1,7 +1,8 @@
-stuId=8，name=旺旺，gender=男，grade=java班，age=22，phoneNum=13887654321，
-stuId=2，name=李四，gender=男，grade=C++班，age=23，phoneNum=13644537890，
-stuId=4，name=小吴，gender=女，grade=php班，age=14，phoneNum=13644537890，
-stuId=3，name=小兰，gender=女，grade=java班，age=28，phoneNum=13644537890，
-stuId=6，name=小吕，gender=男，grade=python班，age=17，phoneNum=13644537890，
-stuId=5，name=黑子，gender=男，grade=java班，age=18，phoneNum=13644537890，
-stuId=7，name=兰仔，gender=女，grade=java班，age=38，phoneNum=13644537890，
+stuId=1，name=张三，gender=男，grade=java班，age=18，phoneNum=13644537890
+stuId=2，name=李四，gender=男，grade=C++班，age=23，phoneNum=13644537890
+stuId=4，name=小吴，gender=女，grade=php班，age=14，phoneNum=13644537890
+stuId=3，name=小兰，gender=女，grade=java班，age=28，phoneNum=13644537890
+stuId=6，name=小吕，gender=男，grade=python班，age=17，phoneNum=13644537890
+stuId=5，name=黑子，gender=男，grade=java班，age=18，phoneNum=13644537890
+stuId=7，name=兰仔，gender=女，grade=java班，age=38，phoneNum=13644537890
+stuId=8，name=娜娜，gender=女，grade=java班，age=23，phoneNum=13876543562

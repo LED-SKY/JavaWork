@@ -99,7 +99,7 @@ public class ScannerUtils {
 
         String grade;
         while (true) {
-            System.out.println("请输入合法的班级，必须以xx班结尾：");
+            System.out.print("请输入合法的班级，必须以xx班结尾：");
             grade = sc.nextLine();
             if (!judgeGradeLegal(grade)) {
                 //班级不合法

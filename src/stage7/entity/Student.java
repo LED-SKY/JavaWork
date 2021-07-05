@@ -82,12 +82,18 @@ public class Student {
     //打印学生信息的方法
     public void printStudent() {
 //        System.out.println(this.stuId + "\t\t" + this.name + "\t" + this.gender + "\t\t" + this.grade + "\t\t" + this.age + "\t\t" + this.phoneNum);
-        System.out.printf("%-7s",this.stuId);
-        System.out.printf("%-7s",this.name);
-        System.out.printf("%-6s",this.gender);
-        System.out.printf("%-10s",this.grade);
-        System.out.printf("%-7s",this.age);
-        System.out.printf("%15s",this.phoneNum);
+        System.out.printf("%-7s", this.stuId);
+        System.out.printf("%-7s", this.name);
+        System.out.printf("%-6s", this.gender);
+        System.out.printf("%-12s", this.grade);
+        System.out.printf("%-7s", this.age);
+        System.out.printf("%15s", this.phoneNum);
         System.out.println();
+    }
+
+    @Override
+    public String toString() {
+        return "stuId=" + stuId + "，name=" + name + "，gender=" + gender + "，grade=" + grade + "，age=" + age + "，phoneNum=" + phoneNum
+                ;
     }
 }
